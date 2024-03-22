@@ -209,6 +209,10 @@ header {
     background-color: #FFC0CB;
 }
 
+.bg-light-grey{
+    background-color: #F6F6F6;
+}
+
 .bg-grey {
     background-color: #D3D3D3;
 }
@@ -261,6 +265,9 @@ header {
 }
 .py-60 {
     padding: 60px 0px;
+}
+.py-80 {
+    padding: 80px 0px;
 }
 
 

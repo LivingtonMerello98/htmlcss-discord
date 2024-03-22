@@ -13,10 +13,11 @@ header {
 .f-grow {
     flex-grow: 2;
 }
+
 .unstyled-list {
     list-style-type: none;
 }
-.unlisted-list li{
+.unstyled-list li{
     display: inline-block;
 }
 
@@ -35,6 +36,17 @@ header {
 .height-sm {
     height: 30px;
 }
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
 
 .container {
     max-width: 1200px;
@@ -146,10 +158,12 @@ header {
     background-color: #F08080;
 }
 
+.py-10 {
+    padding: 10px 0;
+}
 .py-20 {
     padding: 20px 0;
 }
-
 .py-5 {
     padding-top: 5px;
     padding-bottom: 20px;

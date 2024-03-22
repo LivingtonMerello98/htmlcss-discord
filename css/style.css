@@ -24,7 +24,20 @@ header {
     padding-top: 15px;
 } */
 
+
+/*button class*/
+
+.btn{
+    border: 0px;
+    border-radius: 15px;
+}
+
+.login{
+    padding: 8px 20px;
+}
+
 /* layout class*/
+
 .f-grow {
     flex-grow: 2;
 }
@@ -156,6 +169,7 @@ header {
 
 /* utility class */
 
+/*background-color class*/
 .bg-orange {
     background-color: #DAA520;
 }
@@ -196,20 +210,30 @@ header {
     background-color: #F08080;
 }
 
-.py-10 {
-    padding: 10px 0;
+
+/*padding-class*/
+.px-5 {
+    padding: 0px 5px;
 }
-.py-20 {
-    padding: 20px 0;
+.px-10 {
+    padding: 0px 10px;
 }
-.py-5 {
-    padding-top: 5px;
-    padding-bottom: 20px;
+.px-20 {
+    padding: 0px 20px;
 }
 
-.m-bottom-line {
-    margin-bottom: 1px dotted white;
+.py-5 {
+    padding: 5px 0px;
 }
+.py-10 {
+    padding: 10px 0px;
+}
+.py-20 {
+    padding: 20px 0px;
+}
+
+
+
 
 .row.space-between.a-center.a-content-center{
     height: 100%;

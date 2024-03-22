@@ -4,10 +4,25 @@
     box-sizing: border-box; 
 }
 
+body{
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header {
-    background-color: #ADD8E6;
+    background-color: #3161E0;
     padding: 10px 0px;
 }
+
+/* .top-footer{
+    border-bottom: 1px solid #fff;
+    padding: 10px 0px 25px 0px;
+}
+
+.bottom-footer {
+    padding-top: 15px;
+} */
 
 /* layout class*/
 .f-grow {
@@ -17,9 +32,16 @@ header {
 .unstyled-list {
     list-style-type: none;
 }
+
 .unstyled-list li{
     display: inline-block;
 }
+
+.unstyled-list li a {
+    color: white;
+    text-decoration: none;
+}
+
 
 .height-xl {
     height: 500px;
@@ -40,9 +62,11 @@ header {
 .text-center{
     text-align: center;
 }
+
 .text-right{
     text-align: right;
 }
+
 .text-left{
     text-align: left;
 }
@@ -71,6 +95,10 @@ header {
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 .a-center {
     align-items: center; 
 }
@@ -83,13 +111,19 @@ header {
     align-content: center; 
 }
 /* classe da rimuovere*/
+/* .col-17,
 .col-20,
 .col-25,
 .col-30,
+.col-34,
 .col-50,
 .col-70,
 .col-100 {
     border: 1px dotted black;
+} */
+
+.col-17 {
+    width: calc(100% / 6);
 }
 
 .col-20 {
@@ -102,6 +136,10 @@ header {
 
 .col-30 {
     width: calc(30% - 1px);
+}
+
+.col-34 {
+    width: calc(100% / 6 * 2);
 }
 
 .col-50 {

@@ -24,6 +24,12 @@ header {
     padding-top: 15px;
 } */
 
+/*Hero section*/
+.jumbo{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /*button class*/
 
@@ -36,6 +42,15 @@ header {
     padding: 8px 20px;
 }
 
+.btn-hero{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.discord{
+    color: white;
+    background-color: #23272A;
+}
 /* layout class*/
 
 .f-grow {
@@ -163,6 +178,10 @@ header {
     width: calc(70% - 1px);
 }
 
+.col-80 {
+    width: 80%;
+}
+
 .col-100 {
     width: 100%;
 }
@@ -221,6 +240,12 @@ header {
 .px-20 {
     padding: 0px 20px;
 }
+.px-40 {
+    padding: 0px 40px;
+}
+.px-60 {
+    padding: 0px 60px;
+}
 
 .py-5 {
     padding: 5px 0px;
@@ -231,10 +256,26 @@ header {
 .py-20 {
     padding: 20px 0px;
 }
+.py-40 {
+    padding: 40px 0px;
+}
+.py-60 {
+    padding: 60px 0px;
+}
 
 
 
 
 .row.space-between.a-center.a-content-center{
     height: 100%;
+}
+
+/*text*/
+.hero-title{
+    font-size:40px;
+    font-weight: 800;
+}
+
+.white{
+    color: white;
 }

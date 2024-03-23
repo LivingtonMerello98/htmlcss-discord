@@ -38,10 +38,13 @@ header {
 }
 
 /*button class*/
+.wave-grey{
+    background-color:  #F6F6F6;
+}
 
 .btn{
     border: 0px;
-    border-radius: 15px;
+    border-radius: 28px;
 }
 
 .login{
@@ -49,7 +52,7 @@ header {
 }
 
 .btn-hero{
-    padding: 8px 20px;
+    padding: 16px 32px;
     font-size: 20px;
 }
 
@@ -62,6 +65,12 @@ header {
     color: white;
     background-color: #23272A;
 }
+
+.f-logo{
+    width: 90px;
+    height: auto;
+}
+
 /* layout class*/
 
 .f-grow {
@@ -76,9 +85,15 @@ header {
     display: inline-block;
 }
 
-.unstyled-list, li,  a {
+.unstyled-list li  a {
     color: white;
     text-decoration: none;
+}
+
+.li-footer{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 li{
@@ -127,6 +142,10 @@ li{
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.space-around{
+    align-content: space-around;
 }
 
 .space-evenly {
@@ -318,4 +337,17 @@ li{
 .t-footer{
     font-size: 20px;
     color: #8EA1E1;
+}
+
+.margin-top{
+    background-color: #8EA1E1;
+    height: 1px;
+} 
+
+
+.container-bttm-f {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 40px; 
 }

@@ -30,6 +30,16 @@ header {
     background-repeat: no-repeat;
 }
 
+.background-wave{
+    background-image: url(../img/wave.svg);
+    opacity: 0.1;
+}
+.background-wave-reverse{
+    background-image: url(../img/wave.svg);
+    opacity: 0.1;
+    transform: rotate(180deg);
+}
+
 .ita-flag{
     width: 20px;
     height: auto;
@@ -253,7 +263,7 @@ li{
 }
 
 .bg-light-grey{
-    background-color: #F6F6F6;
+    background-color: #E5E5E5;
 }
 
 .bg-grey {

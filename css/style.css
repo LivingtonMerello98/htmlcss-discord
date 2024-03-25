@@ -347,7 +347,9 @@ li{
     padding: 20px 163px;
 }
 
-
+.my-20{
+    margin-top:20px;
+}
 
 .row.space-between.a-center.a-content-center{
     height: 100%;
@@ -383,7 +385,7 @@ h3{
     color: #8EA1E1;
 }
 
-.margin-top{
+.border-top{
     background-color: #8EA1E1;
     height: 1px;
 } 
